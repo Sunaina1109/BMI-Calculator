@@ -1,11 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
+import './BMI.css';
+import BMI from './BMI';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-      <p>this is BMI App</p>
+    <div className="Parent-container">
+      <BMI/>
+      
     </div>
   );
 }
